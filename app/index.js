@@ -6,7 +6,7 @@ function component () {
     var element = j('<div></div>');
 
   /* 需要引入 lodash，下一行才能正常工作 */
-  element.html(_.join(['Hi','webpack'], ' '))
+  element.html(_.join(['Hii','webpack'], ' '))
 
   return element.get(0)
 }
